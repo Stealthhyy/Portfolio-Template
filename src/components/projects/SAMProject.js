@@ -4,7 +4,7 @@ import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
 
-export default function ExampleProject() {
+export default function SAMProject() {
     return (
         <div className="project">
             <Row>
@@ -15,7 +15,7 @@ export default function ExampleProject() {
                     <Row>
                         <Col>
                             <ProjectTextCard>
-                                <h2>Lorem Ipsum</h2>
+                                <h2>Server Authoritative Movement</h2>
                                 <h5>Status: Lorem Ipsum</h5>
                                 <br />
                                 <h3>Summary</h3>

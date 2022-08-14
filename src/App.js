@@ -13,6 +13,11 @@ import Projects from "./components/pages/Projects";
 
 // Project components
 import ExampleProject from "./components/projects/ExampleProject";
+import UntamedProject from "./components/projects/UntamedProject";
+import SGEProject from "./components/projects/SGEProject";
+import DoorNineProject from "./components/projects/DoorNineProject";
+import SAMProject from "./components/projects/SAMProject";
+import StripeProject from "./components/projects/StripeProject";
 
 // Font awesome setup
 const iconList = Object.keys(Icons)
@@ -37,7 +42,12 @@ export default function App() {
               <Route path="/projects" exact component={() => <Projects />} />
 
               {/* Projects */}
-              <Route path="/projects/example" exact component={() => <ExampleProject />} />
+              <Route path="/projects/untamed" exact component={() => <UntamedProject />} />
+              <Route path="/projects/sge" exact component={() => <SGEProject />} />
+              <Route path="/projects/door9" exact component={() => <DoorNineProject />} />
+              <Route path="/projects/server-auth-movement" exact component={() => <SAMProject />} />
+              <Route path="/projects/stripe" exact component={() => <StripeProject />} />
+
             </Switch>
           </Row>
         </Container>

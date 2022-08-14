@@ -4,39 +4,47 @@ export const projects =
 [
     // -------- Featured --------
     {
-        key:"example1",
-        description:"example-project",
-        image: "/images/example/card-example.png",
-        slug: "example",
+        key:"untamed",
+        description:"An MMO monster taming game with over a million uniques combinations of tames to collect.",
+        image: "/images/untamed/logo.png",
+        slug: "untamed",
         group: "Featured",
         color: "green",
     },
-    // -------- 2020 --------
     {
-        key:"example2",
-        description:"example-project",
-        image: "/images/example/card-example.png",
-        slug: "example",
-        group: "2020",
-        color: "white",
-    },
+        key:"sge",
+        description:"SGE Is the start to a game engine that I used to work on.",
+        image: "/images/sge/logo.png",
+        slug: "sge",
+        group: "Featured",        
+        color: "green",
+    }, 
     // -------- 2021 --------
     {
-        key:"example3",
-        description:"example-project",
-        image: "/images/example/card-example.png",
-        slug: "example",
-        group: "2021",
+        key:"stripe",
+        description:"A demo payment site using the Stripe API, built with React.",
+        image: "/images/stripe/logo.png",
+        slug: "stripe",
+        group: "2021",      
+        color: "white",
+    },
+    // -------- 2022 --------
+    {
+        key:"door9",
+        description:"A horror maze game where the theme for the game is \"Transition\".",
+        image: "/images/door9/logo.png",
+        slug: "door9",
+        group: "2022",      
         color: "white",
     },
     {
-        key:"example4",
-        description:"example-project",
-        image: "/images/example/card-example.png",
-        slug: "example",
-        group: "2021",
+        key:"sam",
+        description:"This is a server authoritative movement project with client-side prediction and server reconciliation.",
+        image: "/images/server-auth-movement/logo.png",
+        slug: "server-auth-movement",
+        group: "2022",      
         color: "white",
-    },
+    },    
 ];
 
 export const groups = 
