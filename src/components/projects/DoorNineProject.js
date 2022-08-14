@@ -3,6 +3,7 @@ import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
+import ProjectYoutubeEmbedCard from '../ProjectYoutubeEmbedCard';
 
 export default function DoorNineProject() {
     return (
@@ -12,6 +13,12 @@ export default function DoorNineProject() {
                 <Col md={9}>
 
                     {/* ------ Row 1 ------ */}
+                    <Row>
+                        <Col>
+                            <ProjectYoutubeEmbedCard src="3rI2HQh3J4w" />                            
+                        </Col>
+                    </Row>
+
                     <Row>
                         <Col>
                             <ProjectTextCard>
@@ -53,13 +60,6 @@ export default function DoorNineProject() {
                             </ProjectTextCard>
                         </Col>
                     </Row>
-                    <Row md={9}>
-                        <Col>
-                            <iframe width="100%" height="600" src="https://www.youtube.com/embed/3rI2HQh3J4w" title="Door9: Game Jam Aotearoa 2022 Submission" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </Col>
-                    </Row>
-
-                    
                 </Col>
 
                 {/* ------ Right Column ------ */}
@@ -78,6 +78,8 @@ export default function DoorNineProject() {
                             <li>Hamish - Sound Design</li>
                         </ul>
                     </ProjectTextCard>
+
+                    <iframe frameborder="0" src="https://itch.io/embed/1540974?linkback=true" width="208" height="167"><a href="https://sugoi-yellow.itch.io/door-9">Door 9 by Sugoi Yellow, Stealthhyy, MaxSkerrett, uncoolly, HeadCoach, HamishOliver</a></iframe>
                 </Col>
             </Row>
         </div>
